@@ -39,6 +39,6 @@ You'll need to add this to the ```<head>``` of your CMS index page at /admin/ind
 </script>
 ```
 
-#### You are finished with VueCMS
+### You are finished with VueCMS
 
 Now you can control site content in https://yoursite.netlify.com/admin/

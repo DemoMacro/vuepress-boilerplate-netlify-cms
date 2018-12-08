@@ -12,7 +12,7 @@ module.exports = {
           { text: 'URLStack', link: 'https://abc.imst.xyz' },
         ]
       },
-      { text: 'Admin', link: 'admin/index.html' }
+      { text: 'About', link: 'about.md' }
     ],
 
     sidebar: 'auto',

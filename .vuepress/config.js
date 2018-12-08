@@ -1,6 +1,7 @@
 module.exports = {
   title: 'VuePress-NetlifyCMS',
   description: 'A VuePress Site Deployed on Netlify.com by Demo Macro',
+  dest: 'public',
   themeConfig: {
 
     nav: [
@@ -10,10 +11,15 @@ module.exports = {
         items: [
           { text: 'URLStack', link: 'https://abc.imst.xyz' },
         ]
-      }
+      },
+      { text: 'Admin', link: 'admin/index.html' }
     ],
 
     sidebar: 'auto',
+    sidebar: [
+      ['/', 'Home'],
+      ['docs/', 'Documents']
+    ],
 
     displayAllHeaders: true, // 默认值：false
     activeHeaderLinks: true, // 默认值：true

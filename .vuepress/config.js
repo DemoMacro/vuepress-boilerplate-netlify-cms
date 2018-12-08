@@ -13,10 +13,10 @@ module.exports = {
       }
     ],
 
-    sidebar: 'true',
+    sidebar: 'auto',
 
     displayAllHeaders: true, // 默认值：false
-    activeHeaderLinks: false, // 默认值：true
+    activeHeaderLinks: true, // 默认值：true
     lastUpdated: 'Last Updated', // string | boolean
 
     serviceWorker: {

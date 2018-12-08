@@ -1,15 +1,15 @@
 ---
-title: NetlifyPress
+title: VueCMS
 ---
-# NetlifyPress
+# VueCMS
 
 This is a book written in VuePress and hosted with Netlify.
 
 ### Quick Start
 
-Let's get started with NetlifyPress in three steps.
+Let's get started with VueCMS in three steps.
 
-### 1.Fork [NetlifyPress](https://github.com/DemoMacro/NetlifyPress) on Github
+### 1.Fork [VueCMS](https://github.com/DemoMacro/VueCMS) on Github
 
 ### 2.Deploy which repository you forked on Netlify
 ```
@@ -39,6 +39,6 @@ You'll need to add this to the ```<head>``` of your CMS index page at /admin/ind
 </script>
 ```
 
-#### You are finished with NetlifyPress
+#### You are finished with VueCMS
 
 Now you can control site content in https://yoursite.netlify.com/admin/

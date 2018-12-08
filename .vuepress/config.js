@@ -1,7 +1,7 @@
 module.exports = {
   title: 'VuePress-NetlifyCMS',
   description: 'A VuePress Site Deployed on Netlify.com by Demo Macro',
-  dest: 'public',
+  dest: 'pages',
   themeConfig: {
 
     nav: [

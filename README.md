@@ -3,7 +3,7 @@ title: VueCMS
 ---
 # VueCMS
 
-This is a book written in VuePress and hosted with Netlify.
+### This is a book written in VuePress and hosted with Netlify.
 
 ### Quick Start
 

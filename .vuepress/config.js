@@ -11,11 +11,11 @@ module.exports = {
         items: [
           { text: 'URLStack', link: 'https://abc.imst.xyz' },
           { text: 'Hexo-NetlifyCMS', link: 'https://hexocms.imst.xyz' },
-          { text: 'NetlifyBook', link: 'https://netlifybook.imst.xyz' }
+          { text: 'Gitbook-NetlifyCMS', link: 'https://gitbook.imst.xyz' }
         ]
       },
       { text: 'About', link: 'about.md' },
-      { text: 'Admin', link: 'https://vuecms.imst.xyz/admin/' }
+      { text: 'Admin', link: 'https://vuepress.imst.xyz/admin/' }
     ],
 
     sidebar: 'auto',

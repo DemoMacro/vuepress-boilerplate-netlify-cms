@@ -10,7 +10,7 @@ title: README
 
 ### Quick Start
 
-Let's get started with VueCMS in step by step.
+Let's get started with VuePress-NetlifyCMS step by step.
 
 ### [Fork](https://github.com/DemoMacro/VuePress-NetlifyCMS/fork) on Github
 

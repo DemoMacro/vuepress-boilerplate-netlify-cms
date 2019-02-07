@@ -1,5 +1,5 @@
 {
-  "name": "hexo-netlifycms",
+  "name": "vuepress-netlifycms",
   "version": "0.0.0",
   "scripts": {
     "dev": "vuepress dev",

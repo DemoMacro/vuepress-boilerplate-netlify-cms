@@ -3,6 +3,8 @@ title: README
 ---
 # VuePress-NetlifyCMS
 
+![](https://img.shields.io/github/license/DemoMacro/VuePress-NetlifyCMS.svg?style=flat)
+
 > A vuepress site hosted with Netlify CMS.
 
 <!-- Markdown snippet -->

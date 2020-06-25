@@ -1,11 +1,22 @@
 {
   "name": "vuepress-netlifycms",
   "version": "0.0.0",
+  "private": true,
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://spdx.org/licenses/MIT.html"
+    },
+    {
+      "type": "CC-BY-NC-SA-4.0",
+      "url": "https://spdx.org/licenses/CC-BY-NC-SA-4.0.html"
+    }
+  ],
   "scripts": {
     "dev": "vuepress dev",
     "build": "vuepress build"
   },
   "devDependencies": {
-    "vuepress": "^0.14.8"
+    "vuepress": "^1.5.2"
   }
 }

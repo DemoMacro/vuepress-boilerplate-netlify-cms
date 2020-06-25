@@ -3,14 +3,14 @@ title: README
 ---
 # VuePress-NetlifyCMS
 
-![](https://img.shields.io/github/license/DemoMacro/VuePress-NetlifyCMS.svg?style=flat)
+![GitHub](https://img.shields.io/github/license/DemoMacro/VuePress-NetlifyCMS)
 
 > A vuepress site hosted with Netlify CMS.
 
 <!-- Markdown snippet -->
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/DemoMacro/VuePress-NetlifyCMS/)
 
-### Quick Start
+## Quick Start
 
 Let's get started with VuePress-NetlifyCMS step by step.
 
@@ -22,7 +22,7 @@ Let's get started with VuePress-NetlifyCMS step by step.
 Build command: vuepress build
 Publish directory: pages
 ```
-### Enable Identity and Git Gateway
+## Enable Identity and Git Gateway
 
 Netlify's Identity and Git Gateway services allow you to manage CMS admin users for your site without requiring them to have an account with your Git host or commit access on your repo. From your site dashboard on Netlify:
 
@@ -36,7 +36,8 @@ Netlify's Identity and Git Gateway services allow you to manage CMS admin users 
 You'll need to add this to the ```<head>``` of your CMS index page at /admin/index.html, as well as the ```<head>``` of your site's main index page.We could include the script in your site using Netlify's Script Injection feature;
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/netlify-identity-widget@1.5.2/build/netlify-identity-widget.min.js"></script>
+<!-- Include the script that enables Netlify Identity on this page. -->
+<script src="https://cdn.jsdelivr.net/npm/netlify-identity-widget@1/build/netlify-identity-widget.min.js" async defer></script>
 ```
  Add the following script before the closing body tag of your site's main index page using Netlify's Script Injection feature.
 
@@ -55,3 +56,8 @@ You'll need to add this to the ```<head>``` of your CMS index page at /admin/ind
 ```
 
 > Now you can control site content in https://yoursite.netlify.com/admin/
+
+## Donate
+
+* [Alipay](https://qr.alipay.com/fkx06887yqy4k3q5kemidbc)
+* [Paypal](https://www.paypal.me/DemoMacro)

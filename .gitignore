@@ -1,4 +1,5 @@
 *.log
 node_modules/
 .vuepress/dist/
-*.lock
+package-lock.json
+yarn.lock

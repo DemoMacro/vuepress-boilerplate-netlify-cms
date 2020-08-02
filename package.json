@@ -18,5 +18,10 @@
   },
   "devDependencies": {
     "vuepress": "^1.5.2"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "bracketSpacing": false,
+    "trailingComma": "none"
   }
 }

@@ -65,7 +65,6 @@ Add the following script before the closing body tag of your site's main index p
 
 > Now you can control site content in https://yoursite.netlify.com/admin/
 
-## Donate
+## License
 
-- [Alipay](https://qr.alipay.com/fkx06887yqy4k3q5kemidbc)
-- [Paypal](https://www.paypal.me/DemoMacro)
+This Project is under the [MIT License](LICENSE).

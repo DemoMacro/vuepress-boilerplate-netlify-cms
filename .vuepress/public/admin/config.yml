@@ -2,18 +2,18 @@ backend:
   name: git-gateway
   branch: master # Branch to update (master by default)
 
-media_folder: 'media' # Folder where user uploaded files should go
+media_folder: "media" # Folder where user uploaded files should go
 
 # This line should *not* be indented
 publish_mode: editorial_workflow
 
 collections:
-  - name: 'Post' # Used in routes, e.g., /admin/collections/blog
-    label: 'Post' # Used in the UI
-    folder: '/' # The path to the folder where the documents are stored
+  - name: "Post" # Used in routes, e.g., /admin/collections/blog
+    label: "Post" # Used in the UI
+    folder: "/" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    slug: '{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
-      - {label: 'Title', name: 'title', widget: 'string'}
-      - {label: 'Publish Date', name: 'date', widget: 'datetime'}
-      - {label: 'Body', name: 'body', widget: 'markdown'}
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Body", name: "body", widget: "markdown" }

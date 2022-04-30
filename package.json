@@ -1,27 +1,33 @@
 {
-  "name": "vuepress-netlifycms",
+  "name": "vuepress-boilerplate-netlify-cms",
   "version": "0.0.0",
+  "description": "VuePress boilerplate integrated with Netlify CMS, powered by Demo Macro.",
   "private": true,
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://spdx.org/licenses/MIT.html"
-    },
-    {
-      "type": "CC-BY-NC-SA-4.0",
-      "url": "https://spdx.org/licenses/CC-BY-NC-SA-4.0.html"
-    }
-  ],
   "scripts": {
     "dev": "vuepress dev",
     "build": "vuepress build"
   },
-  "devDependencies": {
-    "vuepress": "^1.5.2"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DemoMacro/vuepress-boilerplate-netlify-cms.git"
   },
-  "prettier": {
-    "singleQuote": true,
-    "bracketSpacing": false,
-    "trailingComma": "none"
+  "keywords": [
+    "vuepress",
+    "boilerplate",
+    "netlify",
+    "netlify-cms"
+  ],
+  "author": {
+    "name": "Demo Macro",
+    "email": "abc@imst.xyz",
+    "url": "https://imst.xyz/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DemoMacro/vuepress-boilerplate-netlify-cms/issues"
+  },
+  "homepage": "https://github.com/DemoMacro/vuepress-boilerplate-netlify-cms#readme",
+  "devDependencies": {
+    "vuepress": "^1.9.7"
   }
 }

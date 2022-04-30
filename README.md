@@ -4,7 +4,9 @@ title: README
 
 # vuepress-boilerplate-netlify-cms
 
-![GitHub](https://img.shields.io/github/license/DemoMacro/VuePress-NetlifyCMS)
+![Netlify](https://img.shields.io/netlify/271f5a7f-5024-4e8e-96de-4d49584fae2b)
+![GitHub](https://img.shields.io/github/license/DemoMacro/vuepress-boilerplate-netlify-cms)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](https://www.contributor-covenant.org/version/2/1/code_of_conduct/)
 
 > VuePress boilerplate integrated with Netlify CMS, powered by Demo Macro.
 
